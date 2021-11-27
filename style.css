@@ -1,0 +1,36 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1{
+  font-size: 3rem;
+  color: rgb(49, 36, 18);
+
+}
+.prop{
+  border-color: black;
+  border-radius:60px;
+  background-color: orangered;
+  transition: all 1s;
+}
+
+.prop:hover{
+  background-color: orangered;
+  transform: scale(1.1);
+}
+
+hr{
+  border-color: red;
+  border-width: 3px;
+  border-radius: 300px;
+  width: 50px;
+}
+
+.buffer{
+  height: 14rem;
+}
+
